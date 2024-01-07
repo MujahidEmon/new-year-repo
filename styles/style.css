@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url('/styles/images/rectangle\ 15.png'), url('/styles/images/banner.png');
+    background-image: url('../styles/images/rectangle\ 15.png'), url('../styles/images/banner.png');
     background-repeat: no-repeat, no-repeat, no-repeat;
     /* opacity: 0.8; */
     width: 1320px;
@@ -89,7 +89,7 @@ header {
 
 /* banner 2 section */
 .banner-2 {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/styles/images/Vectorrr.png);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../styles/images/Vectorrr.png');
     border-radius: 16px;
     width: 1320px;
     height: 600px;
