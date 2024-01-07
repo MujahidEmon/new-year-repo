@@ -46,11 +46,12 @@ header {
 }
 
 /* offer section */
-.offer-section{
+.offer-section {
     margin: 120px 259px;
     background-color: #FFF;
 
 }
+
 .offer-section>.offer {
     color: #F00;
     text-align: center;
@@ -79,8 +80,72 @@ header {
     margin-top: 16px;
     margin-bottom: 0;
 }
-.offer-section>.offer-image{
+
+.offer-section>.offer-image {
     margin: 48px auto;
     align-items: center;
     display: flex;
+}
+
+/* banner 2 section */
+.banner-2 {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/styles/images/Vectorrr.png);
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.banner-2>.banner-2-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.banner-2>.banner-2-content>.text>.welcome {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.banner-2>.banner-2-content>.text>.description {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* margin-left: 126px; */
+    margin-top: 24px;
+    margin-right: 36px;
+    /* 166.667% */
+}
+
+.banner-2>.banner-2-content>.text>.join {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border:none;
+    margin-left: 32px;
+    margin-top: 48px;
+}
+
+.banner-2-content>img {
+    /* margin: 68.11px 138px 67.23px 39.17px */
 }
