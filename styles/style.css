@@ -52,17 +52,20 @@ header {
     vertical-align: middle;
 
 }
-.offer-section>.offer-sec-content{
+
+.offer-section>.offer-sec-content {
     text-align: center;
     margin-left: auto;
     margin: auto;
 }
+
 .offer-section>.offer-sec-content>.offer {
     color: #F00;
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
-    margin-bottom: 0;;
+    margin-bottom: 0;
+    ;
 }
 
 .offer-section>.offer-sec-content>.holiday {
@@ -208,7 +211,7 @@ header {
     background: #fff;
     width: 1320px;
     margin: 120px auto;
-    padding:0;
+    padding: 0;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -236,7 +239,7 @@ header {
     text-transform: capitalize;
     margin-top: 0px;
     margin-bottom: 22px;
-    
+
 }
 
 .bo-left>.bo-left-description {
@@ -249,8 +252,9 @@ header {
     line-height: 32px;
     margin-top: 0px;
 }
-.best-offer>.bo-middle{
-}
+
+/* .best-offer>.bo-middle {} */
+
 .best-offer>.bo-middle {
     border-radius: 463px;
     border: 15px solid #F00;
@@ -267,10 +271,12 @@ header {
     display: flex;
     margin: 49.08px;
 }
-.best-offer>.bo-right>.bor-text{
+
+.best-offer>.bo-right>.bor-text {
     align-items: center;
     justify-content: center;
 }
+
 .best-offer>.bo-right>.bor-text>.bo-year {
     color: #F00;
     font-family: Inter;
@@ -298,5 +304,72 @@ header {
     margin-top: 43px;
     padding-bottom: 0;
     flex-shrink: 0;
-    background-position:bottom left;
+    background-position: bottom left;
+}
+
+.portfolio {
+    width: 1320px;
+    margin: 120px auto;
+    /* background-color: aquamarine; */
+}
+
+.portfolio-content {
+    width: 1320px;
+    margin: 120px auto;
+    /* background-color: azure; */
+}
+
+.portfolio-content>h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-content>h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.portfolio-content>.port-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.portfolio .port-images{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+}
+.portfolio>.port-images>.row1, .portfolio .port-images>.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+.port-images .row1{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.port-images .row2{
+    margin: 0;
+    padding: 0;
 }
