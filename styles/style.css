@@ -49,6 +49,7 @@ header {
 .offer-section {
     margin: 120px 259px;
     background-color: #FFF;
+    vertical-align: middle;
 
 }
 
@@ -141,11 +142,64 @@ header {
     line-height: normal;
     text-transform: uppercase;
     background: none;
-    border:none;
+    border: none;
     margin-left: 32px;
     margin-top: 48px;
 }
 
 .banner-2-content>img {
     /* margin: 68.11px 138px 67.23px 39.17px */
+}
+
+/* Venue Section */
+.venue {
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    margin: 120px auto;
+    padding: aut0;
+    vertical-align: middle;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);}
+
+.venue-details {
+    margin: auto;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.venue-details .venue-text .vd-red {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.venue-details>input {
+    margin-top: 46px;
+    margin-bottom: 110px;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
