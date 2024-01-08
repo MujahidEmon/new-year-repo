@@ -47,6 +47,7 @@ header {
 
 /* offer section */
 .offer-section {
+    align-items: center;
     margin: 120px 259px;
     background-color: #FFF;
     vertical-align: middle;
@@ -59,6 +60,7 @@ header {
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
+    text-align: center;
     margin-bottom: 0px;
 }
 
@@ -147,10 +149,6 @@ header {
     margin-top: 48px;
 }
 
-.banner-2-content>img {
-    /* margin: 68.11px 138px 67.23px 39.17px */
-}
-
 /* Venue Section */
 .venue {
     width: 1320px;
@@ -159,7 +157,8 @@ header {
     margin: 120px auto;
     padding: aut0;
     vertical-align: middle;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);}
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
 
 .venue-details {
     margin: auto;
@@ -171,7 +170,7 @@ header {
     text-transform: capitalize;
     text-align: center;
     padding-top: 100px;
-    
+
 }
 
 .venue-details .venue-text .vd-red {
@@ -202,4 +201,103 @@ header {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* best offer section */
+
+.best-offer {
+    background: #fff;
+    width: 1320px;
+    margin: 120px auto;
+    padding:0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.best-offer>.bo-left>.bo {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.bo-left>.bo-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    
+}
+
+.bo-left>.bo-left-description {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0px;
+}
+.best-offer>.bo-middle{
+}
+.best-offer>.bo-middle {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: auto;
+
+
+}
+
+.bo-middle>.bo-image {
+    flex-shrink: 0;
+    display: flex;
+    margin: 49.08px;
+}
+.best-offer>.bo-right>.bor-text{
+    align-items: center;
+    justify-content: center;
+}
+.best-offer>.bo-right>.bor-text>.bo-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 112px;
+    margin-bottom: 16px;
+}
+
+.best-offer>.bo-right>.bor-text>.bo-rd {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0;
+}
+
+.best-offer>.bo-right>img {
+    width: 140px;
+    height: 140px;
+    margin-top: 43px;
+    padding-bottom: 0;
+    flex-shrink: 0;
+    background-position:bottom left;
 }
