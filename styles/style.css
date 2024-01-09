@@ -462,9 +462,10 @@ img {
 }
 
 .newsletter .subs-button {
+    position: relative;
+    left: -5px;
     width: 210px;
     height: 72px;
-    flex-shrink: 0;
     border: none;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -473,7 +474,7 @@ img {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
-    margin-left: 0;
+    margin:auto;
 }
 
 .subs-button:hover {
