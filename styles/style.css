@@ -409,6 +409,7 @@ img {
     width: 1320px;
     height: 616px;
     margin: auto;
+    margin-bottom: 120px;
     text-align: center;
 }
 
@@ -457,6 +458,7 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-right: 0;
 }
 
 .newsletter .subs-button {
@@ -471,6 +473,7 @@ img {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+    margin-left: 0;
 }
 
 .subs-button:hover {
@@ -482,7 +485,7 @@ footer {
     max-width: 1600px;
     max-height: 609px;
     flex-shrink: 0;
-    margin-top: 120px auto 0;
+    margin: auto;
     padding: 120px 140px;
     background: #070211;
 }
