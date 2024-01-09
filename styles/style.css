@@ -668,7 +668,7 @@ footer>.footer-bottom>.footer-right:hover {
 }
 
 .bonus-sec .bonus-images>.upb{
-    background-image: url('../styles/images/rectangle\ 1.png');
+    background-image: url('../styles/images/girl.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 32%;
@@ -691,7 +691,7 @@ footer>.footer-bottom>.footer-right:hover {
 }
 .bonus-sec>.bonus-images>.low{
     margin-top: 0;
-    background-image: url('../styles/images/rectangle\ 2.png');
+    background-image: url('../styles/images/red.png');
     width: 1320px;
 height: 229px;
 flex-shrink: 0;
