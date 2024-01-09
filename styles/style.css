@@ -159,6 +159,9 @@ header {
     margin-left: 32px;
     margin-top: 48px;
 }
+.banner-2>.banner-2-content>.text>.join:hover{
+    transform: scale(1.2);
+}
 
 /* Venue Section */
 .venue {
@@ -213,7 +216,9 @@ header {
     font-weight: 700;
     text-transform: uppercase;
 }
-
+.venue>.venue-details>.venue-join:hover{
+    transform: scale(1.2);
+}
 /* best offer section */
 
 .best-offer {
@@ -316,6 +321,7 @@ header {
     background-position: bottom left;
 }
 
+/* Portfolio section */
 .portfolio {
     width: 1320px;
     margin: 120px auto;
@@ -388,21 +394,23 @@ img {
     margin-top: 24px;
     padding: 0;
 }
-
+.port:hover{
+    transform:scale(1.05);
+}
 /* Newsletter Section */
 .newsletter {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     width: 1320px;
     height: 616px;
-    flex-shrink: 0;
     margin: auto;
+    text-align: center;
 }
 
-.newsletter>.mail-image {
+.newsletter>img {
     max-width: 150px;
     height: 150px;
-    margin: ;
+    margin:80px 585px 40px 585px ;
 }
 
 .newsletter>.subscribe-nl {
@@ -429,23 +437,36 @@ img {
     margin: 20px 212px 48px 212px;
 }
 
-.newsletter .mailbox> {
-    display: flex;
-}
 
 .newsletter>.mailbox>.mail {
-    width: 648px;
+    width: 438px;
     height: 72px;
-    margin: 0px 336px 80px 336px;
-    border-radius: 50px;
+    border-radius: 50px 0 0 50px;
     background: #FFF;
     border: none;
+    outline: none;
+    padding-left: 30px ;
     color: rgba(7, 2, 17, 0.30);
-    text-align: center;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* padding: 25px 477px 30px; */
+}
+
+.newsletter .subs-button {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.subs-button:hover{
+    transform: scale(1.1);
 }
